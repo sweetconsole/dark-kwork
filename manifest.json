@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "Темная тема для сайта Kwork",
+	"version": "1.0",
+	"description": "Добавляет темный режим на фриланс площадку kwork.",
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"content_scripts": [
+		{
+			"matches": ["https://kwork.ru/*"],
+			"css": ["dark-theme.css"]
+		}
+	],
+	"action":  {
+		"default_title": "Темный Kwork",
+		"default_popup": "popup.html"
+	}
+}
