@@ -108,7 +108,7 @@ body {
 .kworks-filter {
 	background-color: var(--color-primary-light) !important;
 	border: none !important;
-	border-radius: 8px !important;
+	border-radius: 12px !important;
 }
 
 .kworks-filter .kworks-filter-header {
@@ -166,7 +166,7 @@ body {
 
 .cusongsblock, .cusongsblock-user {
 	background-color: var(--color-primary-light) !important;
-	border-radius: 8px !important;
+	border-radius: 12px !important;
 }
 
 .kwork-card-item__left {
@@ -192,7 +192,7 @@ body {
 .page-projects .wants-filter__links {
 	background: var(--color-primary-light) !important;
 	border: none !important;
-	border-radius: 8px !important;
+	border-radius: 12px !important;
 }
 
 .page-projects .wants-filter__link {
@@ -205,7 +205,7 @@ body {
 
 .page-projects .wants-filter__link.active {
 	background: rgba(255, 255, 255, .1) !important;
-	border-radius: 8px !important;
+	border-radius: 12px !important;
 }
 
 .page-projects .wants-filter__link.active {
@@ -219,7 +219,7 @@ body {
 .page-projects .connects-points__email, .page-projects .connects-points__point {
 	background: var(--color-primary-light) !important;
 	border: none !important;
-	border-radius: 8px !important;
+	border-radius: 12px !important;
 }
 
 .page-projects .connects-points__item-count, .page-projects .connects-points__item-text {
@@ -240,4 +240,118 @@ body {
 
 .page-projects .connects-points__item-link {
 	color: var(--color-primary) !important;
+}
+
+.kw-link {
+	color: var(--color-hover) !important;
+	text-decoration: underline !important;
+	text-decoration-color: transparent !important;
+}
+
+.kw-link:hover {
+	color: var(--color-hover) !important;
+	text-decoration-color: var(--color-hover) !important ;
+}
+
+.kw-header--h4, .kw-header--h5 {
+	color: var(--color-white) !important;
+}
+
+.kw-color--gray-tooltip {
+	color: var(--color-primary) !important;
+}
+
+.dashboard__block {
+	background-color: var(--color-primary-light) !important;
+	border: 1px solid var(--color-primary-light) !important;
+}
+
+
+.dashboard__user-card-name {
+	color: var(--color-white) !important;
+}
+
+.dashboard__user-card-status {
+	color: var(--color-primary) !important;
+}
+
+.dashboard__user-card .worker-status-title {
+	color: var(--color-white) !important;
+}
+
+.dashboard__user-card-stats-title {
+	color: var(--color-primary) !important;
+}
+
+.kw-progress-bar__value {
+	color: var(--color-white) !important;
+}
+
+.kw-progress-bar__chart:before {
+	background: var(--color-primary) !important;
+	border: 1px solid var(--color-primary) !important;
+}
+
+.chat__list-item:hover {
+	background-color: var(--color-primary) !important;
+}
+
+.chat__list-item:hover .chat__list-user,
+.chat__list-item:hover .chat__list-message {
+	color: var(--color-primary-dark) !important;
+}
+
+.chat__list-item:hover .chat__list-date {
+	color: var(--color-primary-light) !important;
+}
+
+.chat__list-user {
+	color: var(--color-white) !important;
+}
+
+.chat__list-date {
+	color: var(--color-primary) !important;
+}
+
+.chat__list-message {
+	color: var(--color-white) !important;
+}
+
+.dashboard__projects-table thead td {
+	background: var(--color-primary-dark) !important;
+}
+
+.dashboard__projects-table thead {
+	color: var(--color-white) !important;
+	margin-bottom: 8px !important;
+}
+
+.dashboard__projects-table tbody tr:hover td {
+	background: var(--color-primary) !important;
+}
+
+.dashboard__projects-table tbody tr:hover .dashboard__projects-item-title,
+.dashboard__projects-table tbody tr:hover .dashboard__projects-user-name,
+.dashboard__projects-table tbody tr:hover .dashboard__projects-user-info{
+	color: var(--color-primary-dark) !important;
+}
+
+.dashboard__projects-table tbody tr:hover .dashboard__projects-breadcrumbs {
+	color: var(--color-primary-light) !important;
+}
+
+.dashboard__projects-item-title {
+	color: var(--color-white) !important;
+}
+
+.dashboard__projects-breadcrumbs {
+	color: var(--color-primary) !important;
+}
+
+.dashboard__projects-user-name {
+	color: var(--color-white) !important;
+}
+
+.dashboard__projects-user-info {
+	color: var(--color-white) !important;
 }
